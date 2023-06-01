@@ -1,1 +1,1 @@
-# mini-ticTacToe.github.io
+Tic Tac Toe game in which I practiced Javascript
