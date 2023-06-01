@@ -1,0 +1,98 @@
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    background-color: rgb(202, 166, 166);
+    border-radius: 15px;
+    width: 500px;
+    height: 450px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.items{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0px 0px rgb(0 0 0 / 30%), 0 10px 8px rgb(0 0 0 / 22%);
+    position: relative;
+}
+
+#controller{
+    background-color:  rgb(202, 166, 166);
+    border-radius: 10px;
+    position: absolute;
+    left: 1%;
+    top: 20%;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+#controller h2{
+    text-align: center;
+}
+
+#controller button{
+    background-color: inherit;
+    border: 0;
+    font-size: 2em;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    transition: 0.3s all;
+}
+
+#controller button:hover{
+    transform: scale(1.1);
+}
+
+#controller a{
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s all;
+}
+
+#retry{
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: rgb(96, 163, 96);
+}
+
+#controller a:hover{
+    opacity: 0.8;
+}
+
+#container a:hover{
+    background-color: rgb(196, 127, 127);
+}
+
+#shape , #turn , #retry{
+    display: none;
+}
+
+#turn{
+    font-style: italic;
+}
+
+#container a{
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
+
+#container div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    vertical-align: middle;
+    font-size: 6em;
+    text-transform: uppercase;
+    display: none;
+}
